@@ -1,0 +1,264 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header__nav {
+    background-color: antiquewhite;
+    width: 100vw;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 25px;
+    padding-top: 16px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    position:fixed;
+}
+.header__logo {
+    margin:16px;
+    width: auto;
+    height: 60px;
+}
+.header__list {
+    padding: 16px;
+}
+.header__item {
+    display: inline; 
+}
+.header__item a {
+    background:url('../resources/iconito.jpg') no-repeat left center;
+    background-size: 22px;
+    list-style: none; 
+    text-decoration: none;
+    color: #087b23;
+    padding: 5px 10px 5px 25px;
+    margin: 0px;
+    vertical-align: middle;
+}
+/* Abajo de esta línea empieza el Main */
+.start {
+    background-color: #087b23;
+}
+/* Clases para títulos */
+.start__title {
+    font-family: 'DM Serif Display', serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 35px;
+    margin: 0 0 0 16px;
+    text-decoration: underline;    
+    padding-top: 120px;
+    color: antiquewhite
+}
+.start__title2 {
+    font-family: 'DM Serif Display', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    margin-left: 16px;
+    text-decoration: underline;
+    color:antiquewhite;
+}
+.start__title3 {
+    font-family: 'DM Serif Display', serif;
+    font-style: oblique;
+    font-weight: normal;
+    font-size: 23px;
+    margin-left: 16px;
+    text-decoration: underline;
+    color:antiquewhite;
+}
+.start__title4 {
+    font-family: 'DM Serif Display', serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    color:antiquewhite;
+    margin-left: 25px;
+    text-decoration: underline;
+}
+/* Clases para imágenes */
+.start__image--right {
+    float:right;
+    border: 2px solid antiquewhite;
+    margin-right: 16px;
+    margin-left: 8px;
+}
+.start__image--first {
+    width: auto;
+    height: 350px;
+    margin: 25px 16px 0 40px;
+}
+.start__image--second {
+    width: 270px;
+    height: auto;
+    margin: 25px 16px 0 40px;
+    padding-right: 20px;
+}
+.start__image--third {
+    width: 360px;
+    height: auto;
+    margin: 25px 16px 0 40px;
+    padding-right: 20px;
+}
+.start__figcaption {
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    text-align: center;
+    color:antiquewhite;
+}
+.start__image {
+    width: auto;
+    height: 250px;
+    margin-left: 16px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(98, 2, 2);
+    display: inline;
+}
+/* Clases de párrafo */
+.start__paragraph {
+    font-family:'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    text-justify: auto;
+    line-height: 1.5;
+    margin: 16px 16px 0 16px;
+    padding: 0 15px 10px 0;
+    color: antiquewhite;
+}
+.start__paragraph--link {
+    text-decoration: underline;
+    cursor: pointer;
+    color:antiquewhite;
+    font-weight: bold;
+}
+.start__list {
+    list-style: square;
+    margin: 10px 0 10px 16px;
+}
+/* Empieza galeria */
+.galery {
+    background-color: #087b23;
+    color: antiquewhite;
+    font-family: 'DM Serif Display', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+}
+.galery__image {
+    background-color: rgb(98, 2, 2);
+    height: 300px;
+    display: inline;
+    border-radius: 5px;
+    border: antiquewhite 7px solid;
+    padding: 10px;
+    margin: 16px;
+}
+/* Empieza el footer */
+footer {
+    background-color: #087b23;
+}
+.footer__title { /* Esta class se usará más adelante */
+    font-family: 'DM Serif Display', serif;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 16px;
+    color:antiquewhite;
+    background-color: black;
+    display: inline;
+}
+.footer__rights {
+    color:antiquewhite;
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    margin: 0 16px 0px 16px;
+    padding: 25px 16px 16px 0;
+}
+/* Selectores y clases para formulario de contacto */
+
+.contact__form {
+    font-family: 'DM Serif Display', serif;
+    font-weight: bold;
+    width: 460px; 
+    height: auto;
+    margin: 16px 0 0 16px;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: antiquewhite; 
+    padding: 30px;
+}
+input {
+    background-color: antiquewhite; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #087b23; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+}
+textarea {
+    background-color: antiquewhite; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #087b23; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+}
+
+label {
+    display: block; 
+    float: center;  
+}
+
+button {
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: #087b23; 
+    border-color: black; 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 420px;   
+    cursor: pointer;
+}
+button p {
+    color: antiquewhite; 
+}
+span {
+    color: #087b23; 
+}  
+.contact__warning {
+    font-size: 14px;  
+    color: #087b23;  
+}
+p {
+    font-size: 14px; 
+    color: #087b23; 
+}
+.contact__form--style input:focus {
+    outline:0;
+    border: 1px solid #087b23;
+}
+.contact__form--style textarea:focus {
+    outline:0;
+    border: 1px solid #087b23;
+}
