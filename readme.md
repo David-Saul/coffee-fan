@@ -1,4 +1,4 @@
-<h1>Coffee Fan - Poryecto CoderHouser</h1>
+<h1>Coffee Fan - Proyecto CoderHouse</h1>
 <p>Esta es una página para los fan del buen café</p>
 
 <h2>Tecnologías usadas</h2>
