@@ -4,6 +4,7 @@
 }
 .header__nav {
     background-color: antiquewhite;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(172, 218, 182, 0.982));
     width: 100vw;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -20,10 +21,11 @@
     height: 60px;
 }
 .header__list {
+    
     padding: 16px;
 }
 .header__item {
-    display: inline; 
+    display: inline;
 }
 .header__item a {
     background:url('../resources/iconito.jpg') no-repeat left center;
@@ -117,6 +119,10 @@
     border-radius: 10px;
     background-color: rgb(98, 2, 2);
     display: inline;
+    transition: all .2s ease-in-out;
+}
+.start__image:hover {
+    transform: scale(1.07);
 }
 /* Clases de párrafo */
 .start__paragraph {
