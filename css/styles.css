@@ -459,20 +459,9 @@ p {
 /* Media Query Mobile */
 @media only screen and (min-width: 320px) and (max-width: 575px) {
     /* Navegacion Mobile */
-    .header__logo {
-        display: none;
-    }
-    .header__nav {
-        font-size: 20px;
+    .navbar {
+        width: 100vw;
         position: static;
-        justify-content: left;
-        padding: 0px;
-        flex: 100%;
-    }
-    .header__list {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
     }
     /* Empieza el Main para Mobile */
     .start {
@@ -480,7 +469,7 @@ p {
     }
     /* Titulos H en Mobile */
     .start__title {   
-        padding-top: 20px;
+        padding-top: 15px;
         font-size: 32px;
     }
     .start__title4 {
