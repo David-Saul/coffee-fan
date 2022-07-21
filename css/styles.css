@@ -2,40 +2,31 @@
     margin: 0px;
     padding: 0px;
 }
-.header__nav {
-    background-color: antiquewhite;
-    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(172, 218, 182, 0.982));
+.navbar {
+    background-image: linear-gradient(to right, #087b23, rgb(41, 55, 45));
     width: 100vw;
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-size: 25px;
     padding-top: 16px;
-    display: flex;
-    flex-wrap:wrap;
-    justify-content:space-between;
-    position:fixed;
+    
+}
+.nav-link {
+    color: antiquewhite;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 25px;
+    transition: all .3s ease-in-out;
+}
+.nav-link:hover {
+    transform: scale(1.07);
+    color:rgb(98, 2, 2);
 }
 .header__logo {
     margin:16px;
     width: auto;
-    height: 60px;
+    height: 80px;
 }
-.header__list {
-    padding: 16px;
-}
-.header__item {
-    display: inline;
-}
-.header__item a {
-    background:url('../resources/iconito.jpg') no-repeat left center;
-    background-size: 22px;
-    list-style: none; 
-    text-decoration: none;
-    color: #087b23;
-    padding: 5px 10px 5px 25px;
-    margin: 0px;
-    vertical-align: middle;
-}
+
 /* Abajo de esta línea empieza el Main */
 .start {
     background-color: #087b23;
@@ -48,7 +39,7 @@
     font-size: 35px;
     margin: 0 0 0 16px;
     text-decoration: underline;    
-    padding-top: 120px;
+    padding-top: 150px;
     color: antiquewhite
 }
 .start__title2 {
@@ -57,6 +48,7 @@
     font-weight: normal;
     font-size: 28px;
     margin-left: 16px;
+    margin-top: 10px;
     text-decoration: underline;
     color:antiquewhite;
 }
@@ -114,7 +106,7 @@
     width: auto;
     height: 250px;
     margin-left: 16px;
-    padding: 15px;
+    padding: 10px;
     border-radius: 10px;
     background-color: rgb(98, 2, 2);
     display: inline;
