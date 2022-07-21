@@ -19,7 +19,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar fixed-top navbar-expand-lg">
+        <nav class="navbar navbar-dark fixed-top navbar-expand-lg">
             <div class="container-fluid">
             <a class="navbar-brand" href="../index.html">
                 <img class="header__logo" src="../resources/iconito.jpg" alt="logo cafetero">
@@ -53,77 +53,49 @@
                     <img class="start__image" src="../resources/coffe-siete.jpg" alt="granos molidos">
                     <img class="start__image" src="../resources/expresso.jpg" alt="café expresso">
                     <img class="start__image" src="../resources/coffe-cinco.jpg" alt="café molido para espresso">
-                    <img class="start__image" src="../resources/granos.jpg" alt="granos de café tostado">
                 </div>
             </article>
             <article>
                 <h2 class="start__title2">Asociate al club</h2>
                 <p class="start__paragraph">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel neque officia eius at dolore, saepe obcaecati est iure minima ullam quasi aspernatur veritatis non dolorem excepturi doloribus atque nihil explicabo?
-                    Inventore tempora amet aliquam nostrum, nihil quae at soluta suscipit ab? Possimus doloremque error, assumenda ipsum dolorum in quas sequi culpa id excepturi, et impedit maxime optio, porro totam illum?
+                    Dejanos tus datos y nos contactaremos con las mejores novedades del mundo cafetero
                 </p>
                 <!-- Formulario de contacto -->
-                <h3 class="start__title3">Escríbenos y en breve nos contactaremos</h3>
-                <div class="contact__form">
-                    <div class="contact__form--style">      
-                        <form method="post">       
-                        <p>
-                            <label>Nombre
-                                <span>*</span>
-                            </label>
-                            <input type="text" placeholder="Escribe tu nombre">
-                        </p>
-                        <p>
-                            <label> Email
-                            <span>*</span>
-                            </label>
-                            <input type="email" placeholder="Escribe tu Email">
-                        </p>
-                        <p>
-                            <label>Teléfono </label>
-                            <input type="tel" placeholder="Escribe tu teléfono">
-                        </p>    
-                        <p>
-                            <label>Sitio web</label>
-                            <input type="url" placeholder="Escribe la URL de tu web">
-                        </p>    
-                        <p>
-                            <label>Asunto
-                                <span>*</span>
-                            </label>
-                            <input type="text" placeholder="Escribe un asunto">
-                        </p>    
-                        <p>
-                            <label>Mensaje
-                                <span>*</span>
-                            </label>                     
-                            <textarea placeholder="Deja aquí tu comentario..."></textarea> 
-                        </p>                    
-                        <button type="submit"><p>Enviar</p></button>
-                        <button type="reset"><p>Limpiar Info</p></button>
-                        <p class="contact__warning">
-                            <span>*</span>los campos son obligatorios.
-                        </p>          
-                        </form>
-                    </div>  
-                </div>
+                <form class="article__form container-fluid">
+                    <div class="mb-1 mx-5">
+                        <label for="exampleFormControlInput1" class="form-label form__font">Nombre</label>
+                        <input type="text" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="Escribe tu nombre">
+                    </div>
+                    <div class="mb-1 mx-5">
+                        <label for="exampleFormControlInput1" class="form-label form__font">Apellido</label>
+                        <input type="text" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="Escribe tu apellido">
+                    </div>
+                    <div class="mb-1 mx-5">
+                        <label for="exampleFormControlInput1" class="form-label form__font">Email</label>
+                        <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="Escribe tu mail">
+                    </div>
+                    <div class="mb-1 mx-5">
+                        <label for="exampleFormControlInput1" class="form-label form__font">Teléfono</label>
+                        <input type="number" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="Escribe tu número">
+                    </div>
+                    <div class="mb-1 mx-5">
+                        <label for="exampleFormControlInput1" class="form-label form__font">Sitio Web</label>
+                        <input type="url" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="Escribe la URL de tu web">
+                    </div>
+                    <div class="mx-5 pb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label form__font">Mensaje</label>
+                        <textarea class="form-control form-control-sm" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe tus comentarios"></textarea>
+                    </div>
+                    <div class="mx-5 pb-3">
+                        <button class="btn btn-primary me-5 mb-2" type="submit">Enviar</button>
+                        <button class="btn btn-primary mb-2" type="reset">Borrar</button>
+                    </div>
+                </form>
             </article>
         </section>
     </main>
     <!-- Pie de página -->
     <footer>
-        <nav class="footer__nav">
-            <a href="../index.html">
-                <img class="header__logo" src="resources/iconito.jpg" alt="logo cafetero">
-            </a>
-            <ul class="header__list">
-                <li class="header__item"><a href="../index.html">Inicio</a></li>
-                <li class="header__item"><a href="metodo-extraccion.html">Métodos de extracción</a></li>
-                <li class="header__item"><a href="cafe-especialidad.html">Café Especialidad</a></li>
-                <li class="header__item"><a href="nuestros-recomendados.html">Nuestros recomendados</a></li>
-                <li class="header__item"><a href="#">Contacto</a></li>
-            </ul>
-        </nav>
         <span class="footer__rights">Todos los derechos reservados®</span>
     </footer>
     <!-- JavaScript Bundle with Popper -->

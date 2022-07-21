@@ -21,6 +21,12 @@
     transform: scale(1.07);
     color:rgb(98, 2, 2);
 }
+.active {
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'DM Serif Display', serif;
+    text-decoration: underline;
+}
 .header__logo {
     margin:16px;
     width: auto;
@@ -241,15 +247,6 @@ footer {
     background-color: black;
     display: inline;
 }
-.footer__nav {
-    background-color: antiquewhite;
-    width: 100vw;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-size: 25px;
-    padding-top: 16px;
-    display: none;
-}
 .footer__rights {
     color:antiquewhite;
     display: flex;
@@ -261,85 +258,29 @@ footer {
     padding: 25px 16px 16px 0;
 }
 /* Selectores y clases para formulario de contacto */
-
-.contact__form {
-    font-family: 'DM Serif Display', serif;
+.article__form {
+    background-color: antiquewhite;
+    border-radius: 5px;
+    border: rgb(98, 2, 2) 5px solid;
+    width: 70vw;
+    margin-left: 20px;
+}
+.form__font{
+    color:#087b23;
+    font-style: italic;
     font-weight: bold;
-    width: 460px; 
-    height: auto;
-    margin: 16px 0 0 16px;
-    border-radius: 10px;  
-    padding-top: 30px;
-    padding-bottom: 20px;  
-    background-color: antiquewhite; 
-    padding: 30px;
 }
-input {
-    background-color: antiquewhite; 
-    width: 408px; 
-    height: 40px; 
-    border-radius: 5px;  
-    border-style: solid; 
-    border-width: 1px; 
-    border-color: #087b23; 
-    margin-top: 10px;  
-    padding-left: 10px;
-    margin-bottom: 20px; 
+.btn {
+    background-color:rgb(98, 2, 2);
+    color: antiquewhite;
+    border-color: #087b23;
+    width: 150px;
+    transition: all .2s ease-in-out;
 }
-textarea {
-    background-color: antiquewhite; 
-    width: 405px; 
-    height: 150px; 
-    border-radius: 5px;  
-    border-style: solid; 
-    border-width: 1px; 
-    border-color: #087b23; 
-    margin-top: 10px;  
-    padding-left: 10px;
-    margin-bottom: 20px; 
-    padding-top: 15px; 
-}
-
-label {
-    display: block; 
-    float: center;  
-}
-
-button {
-    height: 45px; 
-    padding-left: 5px;
-    padding-right: 5px;   
-    margin-bottom: 20px; 
-    margin-top: 10px;   
-    text-transform: uppercase;
-    background-color: #087b23; 
-    border-color: black; 
-    border-style: solid; 
-    border-radius: 10px;  
-    width: 420px;   
-    cursor: pointer;
-}
-button p {
-    color: antiquewhite; 
-}
-span {
-    color: #087b23; 
-}  
-.contact__warning {
-    font-size: 14px;  
-    color: #087b23;  
-}
-p {
-    font-size: 14px; 
-    color: #087b23; 
-}
-.contact__form--style input:focus {
-    outline:0;
-    border: 1px solid #087b23;
-}
-.contact__form--style textarea:focus {
-    outline:0;
-    border: 1px solid #087b23;
+.btn:hover {
+    transform: scale(1.05);
+    background-color: #087b23;
+    border: rgb(98, 2, 2) 5px solid;
 }
 /* Media Query para ratio cuadrado 4:3  */
 @media only screen and (min-width: 993px) and (max-width: 1196px) {
@@ -404,13 +345,8 @@ p {
     .header__logo {
         display: none;
     }
-    .header__nav {
-        font-size: 18px;
-    }
-    .header__list {
-        display: flex;
-        flex-wrap: nowrap;
-        justify-content: space-around; 
+    .navbar-toggler {
+        width: 500px;
     }
     /*Imágenes article  */
     .start__image--tablet {
@@ -455,6 +391,9 @@ p {
     background-size: 60%;
     background-repeat: repeat;
 }
+.btn-primary {
+    width: 250px;
+}
 }
 /* Media Query Mobile */
 @media only screen and (min-width: 320px) and (max-width: 575px) {
@@ -462,6 +401,9 @@ p {
     .navbar {
         width: 100vw;
         position: static;
+    }
+    .navbar-toggler {
+        width: 130px;
     }
     /* Empieza el Main para Mobile */
     .start {
@@ -523,11 +465,6 @@ p {
     /* Navegación footer */
     footer {
         width: 100vw;
-    }
-    .footer__nav {
-        display: flex;
-        font-size: 20px;
-        padding: 0;
     }
 /* Galeria mobile */
 .galery__grid {
@@ -611,21 +548,16 @@ iframe {
     margin-bottom: 16px;
 }
 /* Formulario Mobile */
-.contact__form {
-    width: 260px; 
-    margin: 16px 3px 0 10px;
-    padding-top: 30px;
-    padding: 12px;
-    padding-bottom: 2px;
+.article__form {
+    width: 75vw;
+    margin-left: 35px;
 }
-input {
-    width: 220px; 
+.form__font{
+    color:#087b23;
+    font-style: italic;
+    font-weight: bold;
 }
-textarea {
-    width: 220px; 
-}
-
-button {
-    width: 200px;   
+.btn-primary {
+    width: 115px;
 }
 }
