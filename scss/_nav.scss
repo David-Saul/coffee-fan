@@ -1,0 +1,30 @@
+.navbar {
+    background-image: linear-gradient(to right, #087b23, rgb(41, 55, 45));
+    width: 100vw;
+    font-style: normal;
+    font-size: 25px;
+    padding-top: 16px;
+    
+}
+.nav-link {
+    color: antiquewhite;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 25px;
+    transition: all .3s ease-in-out;
+}
+.nav-link:hover {
+    transform: scale(1.07);
+    color:rgb(98, 2, 2);
+}
+.active {
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'DM Serif Display', serif;
+    text-decoration: underline;
+}
+.header__logo {
+    margin:16px;
+    width: auto;
+    height: 80px;
+}

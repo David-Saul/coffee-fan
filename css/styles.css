@@ -1,8 +1,4 @@
 @charset "UTF-8";
-* {
-  margin: 0px;
-  padding: 0px; }
-
 .navbar {
   background-image: linear-gradient(to right, #087b23, #29372d);
   width: 100vw;
@@ -32,6 +28,10 @@
   width: auto;
   height: 80px; }
 
+* {
+  margin: 0px;
+  padding: 0px; }
+
 /* Abajo de esta línea empieza el Main */
 .start {
   background-color: #087b23; }
@@ -53,7 +53,7 @@
   font-weight: normal;
   font-size: 28px;
   margin-left: 16px;
-  margin-top: 10px;
+  padding-top: 10px;
   text-decoration: underline;
   color: antiquewhite; }
 
@@ -109,16 +109,16 @@
 
 .start__image {
   width: auto;
-  height: 250px;
+  height: 380px;
   margin-left: 16px;
   padding: 10px;
   border-radius: 10px;
   background-color: #620202;
   display: inline;
-  transition: all .2s ease-in-out; }
+  transition: all .2s ease-out; }
 
 .start__image:hover {
-  transform: scale(1.07); }
+  transform: scale(1.05); }
 
 /* Clases de párrafo */
 .start__paragraph {
@@ -138,6 +138,9 @@
   color: antiquewhite;
   font-weight: bold; }
 
+.start__paragraph--link:hover {
+  color: #620202; }
+
 .start__list {
   list-style: square;
   margin: 10px 0 10px 16px; }
@@ -145,6 +148,7 @@
 /* Empieza galeria */
 .galery {
   background-color: #087b23;
+  width: auto;
   color: antiquewhite;
   font-family: 'DM Serif Display', serif;
   font-style: normal;
@@ -152,88 +156,18 @@
   font-size: 20px; }
 
 /* Galeria con grid en página "Metodo de estracción" */
-.galery__grid {
-  background-color: #087b23;
-  display: grid;
-  width: auto;
-  height: 100vh;
-  grid-template-columns: 3fr 1fr 3fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: 'img1 img2 img3' 'img4 img5 img6' 'img7 img8 img9';
-  gap: 10px;
-  padding: 16px; }
-
-.img1 {
-  grid-area: img1;
-  background-image: url("../resources/expresso.jpg");
-  background-position: 50% 100%;
-  background-size: cover;
-  background-repeat: no-repeat; }
-
-.img2 {
-  grid-area: img2;
-  background-image: url("../resources/coffee-bag.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat; }
-
-.img3 {
-  grid-area: img3;
-  background-image: url("../resources/grano-coffe.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat; }
-
-.img4 {
-  grid-area: img4;
-  background-image: url("../resources/coffee-tres.jpg ");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat; }
-
-.img5 {
-  grid-area: img5;
-  background-image: url("../resources/granos.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat; }
-
-.img6 {
-  grid-area: img6;
-  background-image: url("../resources/cafe-especialidad.png ");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat; }
-
-.img7 {
-  grid-area: img7;
-  background-image: url("../resources/cafe-turco-dos.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat; }
-
-.img8 {
-  grid-area: img8;
-  background-image: url("../resources/coffee_nueve.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat; }
-
-.img9 {
-  grid-area: img9;
-  background-image: url("../resources/cafe-especialidad_dos.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat; }
-
 .galery__image {
   border-radius: 10px;
   border: #620202 7px solid;
-  padding: 10px; }
+  background-color: antiquewhite;
+  padding: 10px;
+  height: 70vh;
+  width: auto; }
 
 /* Empieza el footer */
 footer {
-  background-color: #087b23; }
+  background-color: #087b23;
+  width: auto; }
 
 .footer__title {
   /* Esta class se usará más adelante */
@@ -293,27 +227,8 @@ footer {
     height: auto;
     margin: 16px 0 16px 0;
     align-items: center; }
-  /* Galeria Grid */
-  .galery__grid {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(5, 1fr);
-    grid-template-areas: 'img1 img2' 'img3 img4' 'img5 img6' 'img7 img8' 'img9 img9';
-    gap: 5px; }
-  .img1 {
-    background-size: contain;
-    background-repeat: repeat-x; }
-  .img2 {
-    background-size: contain;
-    background-repeat: repeat; }
-  .img6 {
-    background-size: contain;
-    background-clip: border-box;
-    background-repeat: repeat; }
-  .img7 {
-    background-clip: border-box; }
-  .img8 {
-    background-size: 60%;
-    background-repeat: repeat; } }
+  .galery__image {
+    height: 50vh; } }
 
 /* Media Query para Tablet */
 @media only screen and (min-width: 576px) and (max-width: 992px) {
@@ -336,27 +251,9 @@ footer {
     height: auto;
     margin: 16px 0 16px 0;
     align-items: center; }
-  /* Galeria Grid */
-  .galery__grid {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(5, 1fr);
-    grid-template-areas: 'img1 img2' 'img3 img4' 'img5 img6' 'img7 img8' 'img9 img9';
-    gap: 5px; }
-  .img1 {
-    background-size: contain;
-    background-repeat: repeat-x; }
-  .img2 {
-    background-size: contain;
-    background-repeat: repeat; }
-  .img6 {
-    background-size: contain;
-    background-clip: border-box;
-    background-repeat: repeat; }
-  .img7 {
-    background-clip: border-box; }
-  .img8 {
-    background-size: 60%;
-    background-repeat: repeat; }
+  /* Galeria*/
+  .galery__image {
+    height: 300px; }
   .btn-primary {
     width: 250px; } }
 
@@ -417,69 +314,14 @@ footer {
     justify-content: center;
     padding-bottom: 16px;
     gap: 7px; }
-  /* Navegación footer */
-  footer {
-    width: 100vw; }
   /* Galeria mobile */
-  .galery__grid {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(9, 1fr);
-    grid-template-areas: 'img1' 'img2' 'img3' 'img4' 'img5' 'img6' 'img7' 'img8' 'img9';
-    gap: 7px;
-    height: auto;
-    width: 100vw;
-    padding: 0; }
-  .img1 {
-    background-size: contain;
-    background-repeat: repeat;
-    height: 150px;
-    margin: 0 16px 0 16px; }
-  .img2 {
-    background-size: contain;
-    background-repeat: repeat;
-    height: 150px;
-    margin: 0 16px 0 16px; }
-  .img3 {
-    background-size: contain;
-    background-repeat: repeat;
-    height: 150px;
-    margin: 0 16px 0 16px; }
-  .img4 {
-    background-size: contain;
-    background-repeat: repeat;
-    height: 150px;
-    margin: 0 16px 0 16px; }
-  .img5 {
-    height: 150px;
-    margin: 0 16px 0 16px; }
-  .img6 {
-    background-size: contain;
-    background-repeat: repeat;
-    height: 150px;
-    margin: 0 16px 0 16px; }
-  .img7 {
-    background-size: contain;
-    background-repeat: repeat;
-    height: 150px;
-    margin: 0 16px 0 16px; }
-  .img8 {
-    background-size: contain;
-    background-repeat: repeat;
-    height: 150px;
-    margin: 0 16px 0 16px; }
-  .img9 {
-    height: 150px;
-    margin: 0 16px 0 16px; }
+  .galery {
+    width: 100vw; }
   .galery__image {
-    border: none;
-    padding: 0px; }
+    height: auto;
+    width: 90vw; }
   .start__paragraph {
     margin-bottom: 0px; }
-  iframe {
-    width: 270px;
-    height: 250px;
-    padding-left: 20px;
-    margin-bottom: 16px; }
   /* Formulario Mobile */
   .article__form {
     width: 75vw;
@@ -489,4 +331,6 @@ footer {
     font-style: italic;
     font-weight: bold; }
   .btn-primary {
-    width: 115px; } }
+    width: 115px; }
+  footer {
+    width: 100vw; } }
