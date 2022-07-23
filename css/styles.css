@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .navbar {
-  background-image: linear-gradient(to right, #087b23, #29372d);
+  background-image: linear-gradient(to top, #087b23, #29372d);
   width: 100vw;
   font-style: normal;
   font-size: 25px;
@@ -15,7 +15,9 @@
 
 .nav-link:hover {
   transform: scale(1.07);
-  color: #620202; }
+  color: #620202;
+  font-weight: bold;
+  text-decoration: underline; }
 
 .active {
   font-style: italic;
@@ -333,4 +335,5 @@ footer {
   .btn-primary {
     width: 115px; }
   footer {
-    width: 100vw; } }
+    width: 100vw;
+    background-image: linear-gradient(to bottom, #087b23, #29372d); } }

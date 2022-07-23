@@ -1,5 +1,5 @@
 .navbar {
-    background-image: linear-gradient(to right, #087b23, rgb(41, 55, 45));
+    background-image: linear-gradient(to top, #087b23, rgb(41, 55, 45));
     width: 100vw;
     font-style: normal;
     font-size: 25px;
@@ -16,6 +16,8 @@
 .nav-link:hover {
     transform: scale(1.07);
     color:rgb(98, 2, 2);
+    font-weight: bold;
+    text-decoration: underline;
 }
 .active {
     font-style: italic;
