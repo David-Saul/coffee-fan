@@ -128,7 +128,7 @@
     font-weight: normal;
     font-size: 20px;
 }
-/* Galeria con grid en página "Metodo de estracción" */
+/* Galeria en página "Metodo de estracción" */
 
 .galery__image {
     border-radius: 10px;
@@ -140,7 +140,7 @@
 }
 /* Empieza el footer */
 footer {
-    background-color: #087b23;
+    background-image: linear-gradient(to bottom, #087b23, rgb(41, 55, 45));
     width: auto;
 }
 .footer__title { /* Esta class se usará más adelante */
@@ -154,13 +154,20 @@ footer {
 }
 .footer__rights {
     color:antiquewhite;
-    display: flex;
-    flex-direction: row-reverse;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     font-style: italic;
     margin: 0 16px 0px 16px;
     padding: 25px 16px 16px 0;
+}
+.footer__social {
+    width: 30px;
+    height: auto;
+    transition: all 0.3s ease-out;
+}
+.footer__social:hover {
+    transform: scale(1.1);
+    margin-left: 16px;
 }
 /* Selectores y clases para formulario de contacto */
 .article__form {
