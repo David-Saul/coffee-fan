@@ -122,6 +122,9 @@
 .start__image:hover {
   transform: scale(1.05); }
 
+.start__image--especial {
+  margin-top: 15px; }
+
 /* Clases de párrafo */
 .start__paragraph {
   font-family: 'Roboto', sans-serif;
