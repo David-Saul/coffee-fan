@@ -1,0 +1,161 @@
+/* Media Query para ratio cuadrado 4:3  */
+@media only screen and (min-width: 993px) and (max-width: 1196px) {
+    /*Imágenes article  */
+    .start__image {
+        width: 70vw;
+        height: auto;
+        margin: 16px 0 16px 0;
+        align-items: center;
+
+        &--tablet {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content:center;
+        }
+    }
+    .galery__image {
+        height: 50vh;
+    }
+
+}
+/* Media Query para Tablet */
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+.header__logo {
+    display: none;
+}
+.nav-link {
+    transition: all .3s ease-in-out;
+
+    &:hover {
+        transform: scale(1.05);
+        margin-left: 20px;
+    }
+}    
+.navbar-toggler {
+    width: 500px;
+}
+/*Imágenes article  */
+.start__image {
+    width: 70vw;
+    height: auto;
+    margin: 16px 0 16px 0;
+    align-items: center;
+
+    &--tablet {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center;
+    }
+}
+/* Galeria*/
+.galery__image {
+    height: 300px;
+}
+.btn-primary {
+    width: 250px;
+}
+}
+/* Media Query Mobile */
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+    /* Navegacion Mobile */
+    .navbar {
+        width: 100vw;
+        position: static;
+        
+        &-toggler {
+            width: 130px;
+        }
+    }
+    .nav-link:hover {
+        transform: scale(1.05);
+        margin-left: 20px;
+    }
+    /* Empieza el Main para Mobile */
+    .start {
+        width: 100vw;
+    /* Titulos H en Mobile */
+    &__title {   
+        padding-top: 15px;
+        font-size: 32px;
+    }
+    &__title4 {
+        font-size: 20px;
+    }
+    /* Parrafos Mobile */
+    &__paragraph {
+        font-weight: normal;
+        text-align: justify;
+        line-height: 1.5;
+        margin: 16px;
+    }
+    &__figcaption {
+        align-items: center;
+    }
+    &__image {
+        width: 60vw;
+        height: auto;
+        margin: 0;
+        /* Imágenes Mobile */
+        &--right {
+        float:none;
+        display: flex;
+        justify-content: center;
+        margin: 16px 55px 0px 55px;
+        }
+        &--first {
+            width: 50vw;
+            height: auto;
+            align-items: center;
+            margin: 16px;
+        }
+        &--second {
+            width: 50vw;
+            height: auto;
+            margin: 16px;
+            padding: 0;
+        }
+        &--third {
+            width: 55vw;
+            height: auto;
+        }
+        
+        &--tablet {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content:center;
+            padding-bottom: 16px;
+            gap: 7px;
+        }
+    }
+    &__paragraph {
+        margin-bottom: 0px;
+    }
+}
+
+    
+/* Galeria mobile */
+.galery {
+    width: 100vw;
+    &__image {
+        height: auto;
+        width: 90vw;
+    }
+}
+/* Formulario Mobile */
+.article__form {
+    width: 75vw;
+    margin-left: 35px;
+}
+.form__font{
+    color: $main-color;
+    font-style: italic;
+    font-weight: bold;
+}
+.btn-primary {
+    width: 115px;
+}
+footer {
+    width: 100vw;
+    background-image: linear-gradient(to bottom, $main-color, rgb(41, 55, 45));
+}
+}

@@ -1,0 +1,23 @@
+footer {
+    background-image: linear-gradient(to bottom, #087b23, rgb(41, 55, 45));
+    width: auto;
+    .footer {
+        &__rights {
+            color:antiquewhite;
+            font-size: 18px;
+            font-family: 'Roboto', sans-serif;
+            font-style: italic;
+            margin: 0 16px 0px 16px;
+            padding: 25px 16px 16px 0;
+        }
+        &__social {
+            width: 30px;
+            height: auto;
+            transition: all 0.3s ease-out;
+            &:hover {
+                transform: scale(1.1);
+                margin-left: 15px;
+            }
+        }
+    }
+}
