@@ -1,6 +1,7 @@
 @import "variables";
 @import "nav";
 @import "footer";
+@import "operators";
 *{
     margin: 0px;
     padding: 0px;
@@ -10,9 +11,8 @@
     background-color: $main-color;
     /* Clases para títulos */
     &__title {
-        font-family: 'DM Serif Display', serif;
-        font-style: italic;
-        font-weight: bold;
+        font-family: $title-font;
+        @extend .italic-bold;
         font-size: 35px;
         margin: 0 0 0 16px;
         text-decoration: underline;    
@@ -20,7 +20,7 @@
         color: $font-color;
     }
     &__title2 {
-        font-family: 'DM Serif Display', serif;
+        font-family: $title-font;
         font-style: normal;
         font-weight: normal;
         font-size: 28px;
@@ -30,7 +30,7 @@
         color:antiquewhite;
     }
     &__title3 {
-        font-family: 'DM Serif Display', serif;
+        font-family: $title-font;
         font-style: oblique;
         font-weight: normal;
         font-size: 23px;
@@ -39,7 +39,7 @@
         color: $font-color;
     }
     &__title4 {
-        font-family: 'DM Serif Display', serif;
+        font-family: $title-font;
         font-style: italic;
         font-weight: normal;
         font-size: 18px;
@@ -91,7 +91,7 @@
     }
     &__figcaption {
         margin: 10px;
-        font-family: 'Roboto', sans-serif;
+        font-family: $paragraph-font;
         font-style: italic;
         font-size: 16px;
         text-align: center;
@@ -99,7 +99,7 @@
     }
     /* Clases de párrafo */
     &__paragraph {
-        font-family:'Roboto', sans-serif;
+        font-family: $paragraph-font;
         font-size: 18px;
         font-style: normal;
         font-weight: normal;
@@ -155,8 +155,7 @@
 }
 .form__font{
     color: $main-color;
-    font-style: italic;
-    font-weight: bold;
+    @extend .italic-bold;
 }
 .btn {
     background-color: $second-color;

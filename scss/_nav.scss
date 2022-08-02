@@ -21,10 +21,9 @@
 }
 
 .active {
-    font-style: italic;
-    font-weight: bold;
     font-family: 'DM Serif Display', serif;
     text-decoration: underline;
+    @extend .italic-bold;
 }
 .header__logo {
     margin:16px;

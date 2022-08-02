@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /* Colores */
+/* Fuentes */
 .navbar {
   background-image: linear-gradient(to top, #087b23, #29372d);
   width: 100vw;
@@ -20,8 +21,6 @@
     text-decoration: underline; }
 
 .active {
-  font-style: italic;
-  font-weight: bold;
   font-family: 'DM Serif Display', serif;
   text-decoration: underline; }
 
@@ -48,6 +47,11 @@ footer {
       transform: scale(1.1);
       margin-left: 15px; }
 
+/* EXTEND */
+.italic-bold, .active, .start__title, .form__font {
+  font-style: italic;
+  font-weight: bold; }
+
 * {
   margin: 0px;
   padding: 0px; }
@@ -59,16 +63,14 @@ footer {
   /* Clases para imágenes */
   /* Clases de párrafo */ }
   .start__title {
-    font-family: 'DM Serif Display', serif;
-    font-style: italic;
-    font-weight: bold;
+    font-family: "DM Serif Display", serif;
     font-size: 35px;
     margin: 0 0 0 16px;
     text-decoration: underline;
     padding-top: 150px;
     color: antiquewhite; }
   .start__title2 {
-    font-family: 'DM Serif Display', serif;
+    font-family: "DM Serif Display", serif;
     font-style: normal;
     font-weight: normal;
     font-size: 28px;
@@ -77,7 +79,7 @@ footer {
     text-decoration: underline;
     color: antiquewhite; }
   .start__title3 {
-    font-family: 'DM Serif Display', serif;
+    font-family: "DM Serif Display", serif;
     font-style: oblique;
     font-weight: normal;
     font-size: 23px;
@@ -85,7 +87,7 @@ footer {
     text-decoration: underline;
     color: antiquewhite; }
   .start__title4 {
-    font-family: 'DM Serif Display', serif;
+    font-family: "DM Serif Display", serif;
     font-style: italic;
     font-weight: normal;
     font-size: 18px;
@@ -126,13 +128,13 @@ footer {
       margin-top: 15px; }
   .start__figcaption {
     margin: 10px;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: italic;
     font-size: 16px;
     text-align: center;
     color: antiquewhite; }
   .start__paragraph {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: normal;
@@ -179,9 +181,7 @@ footer {
   margin-left: 20px; }
 
 .form__font {
-  color: #087b23;
-  font-style: italic;
-  font-weight: bold; }
+  color: #087b23; }
 
 .btn {
   background-color: #620202;
