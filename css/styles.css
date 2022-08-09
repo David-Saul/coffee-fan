@@ -97,11 +97,10 @@ footer {
   .start__image {
     width: auto;
     height: 380px;
-    margin-left: 16px;
+    margin: 16px;
     padding: 10px;
     border-radius: 10px;
     background-color: #620202;
-    display: inline;
     transition: all .2s ease-out; }
     .start__image:hover {
       transform: scale(1.05); }
@@ -137,7 +136,6 @@ footer {
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     font-style: normal;
-    font-weight: normal;
     text-align: justify;
     line-height: 1.5;
     margin: 16px 16px 0 16px;
@@ -211,25 +209,20 @@ footer {
 
 /* Media Query para Tablet */
 @media only screen and (min-width: 576px) and (max-width: 992px) {
-  .header__logo {
-    display: none; }
   .nav-link {
     transition: all .3s ease-in-out; }
     .nav-link:hover {
       transform: scale(1.05);
       margin-left: 20px; }
   .navbar-toggler {
-    width: 500px; }
+    width: 400px;
+    height: 80px; }
   /*Imágenes article  */
   .start__image {
     width: 70vw;
-    height: auto;
-    margin: 16px 0 16px 0;
-    align-items: center; }
-    .start__image--tablet {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center; }
+    height: auto; }
+    .start__image--right {
+      margin-top: 16px; }
   /* Galeria*/
   .galery__image {
     height: 300px; }
@@ -280,10 +273,10 @@ footer {
         align-items: center;
         margin: 16px; }
       .start__image--second {
-        width: 50vw;
+        width: 60vw;
         height: auto;
         margin: 16px;
-        padding: 0; }
+        margin-left: 32px; }
       .start__image--third {
         width: 55vw;
         height: auto; }
@@ -299,7 +292,7 @@ footer {
   .galery {
     width: 100vw; }
     .galery__image {
-      height: auto;
+      height: 380px;
       width: 90vw; }
   /* Formulario Mobile */
   .article__form {

@@ -7,6 +7,7 @@
     padding: 0px;
 }
 /* Abajo de esta línea empieza el Main */
+
 .start {
     background-color: $main-color;
     /* Clases para títulos */
@@ -51,11 +52,10 @@
     &__image {
         width: auto;
         height: 380px;
-        margin-left: 16px;
+        margin: 16px;
         padding: 10px;
         border-radius: 10px;
         background-color: $second-color;
-        display: inline;
         transition: all .2s ease-out;
 
         &:hover {
@@ -102,7 +102,6 @@
         font-family: $paragraph-font;
         font-size: 18px;
         font-style: normal;
-        font-weight: normal;
         text-align: justify;
         line-height: 1.5;
         margin: 16px 16px 0 16px;
@@ -125,7 +124,6 @@
         margin: 10px 0 10px 16px;
     }
 }
-
 /* Empieza galeria */
 .galery {
     background-color: $main-color;
