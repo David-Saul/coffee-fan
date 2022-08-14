@@ -28,7 +28,10 @@
 .header__logo {
   margin: 16px;
   width: auto;
-  height: 80px; }
+  height: 80px;
+  transition: all .3s ease-in-out; }
+  .header__logo:hover {
+    transform: scale(1.07); }
 
 footer {
   background-image: linear-gradient(to bottom, #087b23, #29372d);

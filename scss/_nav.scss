@@ -29,4 +29,8 @@
     margin:16px;
     width: auto;
     height: 80px;
+    transition: all .3s ease-in-out;
+    &:hover {
+        transform: scale(1.07);
+    }
 }
