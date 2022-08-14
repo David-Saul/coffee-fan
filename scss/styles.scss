@@ -143,6 +143,25 @@
     width: auto;
     }
 }
+/* Cards Boot */
+.card {
+    width: 300px;
+    height: auto;
+    background-color: $second-color;
+    transition: all .3s ease-in-out;
+    &:hover {
+        transform: scale(1.03);
+        background-color: $gradient-color;
+    }
+}
+.card-body {
+    height: auto;
+}
+.card-text {
+    color: $font-color;
+    font-family: $paragraph-font;
+    font-size: $font-size-paragraph;
+}
 /* Clases para formulario de contacto */
 .article__form {
     background-color: antiquewhite;
