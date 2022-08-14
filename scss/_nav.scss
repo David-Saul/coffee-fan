@@ -1,16 +1,16 @@
 .navbar {
-    background-image: linear-gradient(to top, $main-color, rgb(41, 55, 45));
+    background-image: linear-gradient(to top, $main-color, $gradient-color);
     width: 100vw;
     font-style: normal;
-    font-size: 25px;
+    font-size: $font-size-nav;
     padding-top: 16px;
     
 }
 .nav-link {
     color: $font-color;
-    font-family: 'Roboto', sans-serif;
+    font-family: $paragraph-font;
     font-style: normal;
-    font-size: 25px;
+    font-size: $font-size-nav;
     transition: all .3s ease-in-out;
     &:hover {
         transform: scale(1.07);

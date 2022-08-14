@@ -1,11 +1,11 @@
 footer {
-    background-image: linear-gradient(to bottom, #087b23, rgb(41, 55, 45));
+    background-image: linear-gradient(to bottom, $main-color, $gradient-color);
     width: auto;
     .footer {
         &__rights {
             color:antiquewhite;
-            font-size: 18px;
-            font-family: 'Roboto', sans-serif;
+            font-size: $font-size-footer;
+            font-family: $paragraph-font;
             font-style: italic;
             margin: 0 16px 0px 16px;
             padding: 25px 16px 16px 0;

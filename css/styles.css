@@ -1,18 +1,19 @@
 @charset "UTF-8";
-/* Colores */
-/* Fuentes */
+/* Colors */
+/* Fonts */
+/*Font sizes*/
 .navbar {
   background-image: linear-gradient(to top, #087b23, #29372d);
   width: 100vw;
   font-style: normal;
-  font-size: 25px;
+  font-size: 1.563rem;
   padding-top: 16px; }
 
 .nav-link {
   color: antiquewhite;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-size: 25px;
+  font-size: 1.563rem;
   transition: all .3s ease-in-out; }
   .nav-link:hover {
     transform: scale(1.07);
@@ -34,8 +35,8 @@ footer {
   width: auto; }
   footer .footer__rights {
     color: antiquewhite;
-    font-size: 18px;
-    font-family: 'Roboto', sans-serif;
+    font-size: 1.125rem;
+    font-family: "Roboto", sans-serif;
     font-style: italic;
     margin: 0 16px 0px 16px;
     padding: 25px 16px 16px 0; }
@@ -64,7 +65,7 @@ footer {
   /* Clases de párrafo */ }
   .start__title {
     font-family: "DM Serif Display", serif;
-    font-size: 35px;
+    font-size: 2.188rem;
     margin: 0 0 0 16px;
     text-decoration: underline;
     padding-top: 150px;
@@ -73,7 +74,7 @@ footer {
     font-family: "DM Serif Display", serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 28px;
+    font-size: 1.75rem;
     margin-left: 16px;
     padding-top: 10px;
     text-decoration: underline;
@@ -82,7 +83,7 @@ footer {
     font-family: "DM Serif Display", serif;
     font-style: oblique;
     font-weight: normal;
-    font-size: 23px;
+    font-size: 1.438rem;
     margin-left: 16px;
     text-decoration: underline;
     color: antiquewhite; }
@@ -90,7 +91,7 @@ footer {
     font-family: "DM Serif Display", serif;
     font-style: italic;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: antiquewhite;
     margin-left: 25px;
     text-decoration: underline; }
@@ -129,12 +130,12 @@ footer {
     margin: 10px;
     font-family: "Roboto", sans-serif;
     font-style: italic;
-    font-size: 16px;
+    font-size: 1rem;
     text-align: center;
     color: antiquewhite; }
   .start__paragraph {
     font-family: "Roboto", sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-style: normal;
     text-align: justify;
     line-height: 1.5;

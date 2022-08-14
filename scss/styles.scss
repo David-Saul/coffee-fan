@@ -14,7 +14,7 @@
     &__title {
         font-family: $title-font;
         @extend .italic-bold;
-        font-size: 35px;
+        font-size: $font-size-h1;
         margin: 0 0 0 16px;
         text-decoration: underline;    
         padding-top: 150px;
@@ -24,7 +24,7 @@
         font-family: $title-font;
         font-style: normal;
         font-weight: normal;
-        font-size: 28px;
+        font-size: $font-size-h2;
         margin-left: 16px;
         padding-top: 10px;
         text-decoration: underline;
@@ -34,7 +34,7 @@
         font-family: $title-font;
         font-style: oblique;
         font-weight: normal;
-        font-size: 23px;
+        font-size: $font-size-h3;
         margin-left: 16px;
         text-decoration: underline;
         color: $font-color;
@@ -43,7 +43,7 @@
         font-family: $title-font;
         font-style: italic;
         font-weight: normal;
-        font-size: 18px;
+        font-size: $font-size-h4;
         color: $font-color;
         margin-left: 25px;
         text-decoration: underline;
@@ -93,14 +93,14 @@
         margin: 10px;
         font-family: $paragraph-font;
         font-style: italic;
-        font-size: 16px;
+        font-size: $font-size-figcaption;
         text-align: center;
         color: $font-color;
     }
     /* Clases de párrafo */
     &__paragraph {
         font-family: $paragraph-font;
-        font-size: 18px;
+        font-size: $font-size-paragraph;
         font-style: normal;
         text-align: justify;
         line-height: 1.5;
