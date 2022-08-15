@@ -121,6 +121,8 @@ footer {
       float: right;
       margin-right: 16px;
       margin-left: 8px; }
+    .start__image--hide {
+      display: none; }
     .start__image--first {
       width: auto;
       height: 350px;
@@ -261,6 +263,8 @@ footer {
       float: none; }
     .start__image--end {
       float: none; }
+    .start__image--hide {
+      display: block; }
   /* Galeria*/
   .galery__image {
     height: 300px; }
@@ -296,7 +300,7 @@ footer {
     .start__figcaption {
       align-items: center; }
     .start__image {
-      width: 60vw;
+      width: 90vw;
       height: auto;
       margin: 0;
       /* Imágenes Mobile */ }
@@ -309,6 +313,10 @@ footer {
         float: none; }
       .start__image--end {
         float: none; }
+      .start__image--hide {
+        display: block;
+        width: 90vw;
+        height: auto; }
       .start__image--first {
         width: 50vw;
         height: auto;
@@ -335,7 +343,7 @@ footer {
     width: 100vw; }
     .galery__image {
       height: 380px;
-      width: 90vw; }
+      max-width: 95vw; }
   /* Formulario Mobile */
   .article__form {
     width: 75vw;

@@ -52,6 +52,9 @@
         &--end {
             float: none;
         }
+        &--hide{
+            display: block;
+        }
     } 
 }
 /* Galeria*/
@@ -99,7 +102,7 @@
         align-items: center;
     }
     &__image {
-        width: 60vw;
+        width: 90vw;
         height: auto;
         margin: 0;
         /* Imágenes Mobile */
@@ -114,6 +117,11 @@
         }
         &--end {
             float: none;
+        }
+        &--hide {
+            display: block;
+            width: 90vw;
+            height: auto;
         }
         &--first {
             width: 50vw;
@@ -151,7 +159,7 @@
     width: 100vw;
     &__image {
         height: 380px;
-        width: 90vw;
+        max-width: 95vw;
     }
 }
 /* Formulario Mobile */

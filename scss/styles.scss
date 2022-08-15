@@ -57,11 +57,9 @@
         border-radius: 10px;
         background-color: $second-color;
         transition: all .2s ease-out;
-
         &:hover {
             transform: scale(1.05);
         }
-
         &--right {
             float:right;
             border: 2px solid antiquewhite;
@@ -77,6 +75,9 @@
             float: right;
             margin-right: 16px;
             margin-left: 8px;
+        }
+        &--hide {
+            display: none;
         }
         &--first {
             width: auto;
