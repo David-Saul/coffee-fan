@@ -236,6 +236,8 @@ footer {
       justify-content: center; }
     .start__image--left {
       float: right; }
+    .start__image--end {
+      float: none; }
   .galery__image {
     height: 50vh; } }
 
@@ -256,6 +258,8 @@ footer {
     .start__image--right {
       margin-top: 16px; }
     .start__image--left {
+      float: none; }
+    .start__image--end {
       float: none; }
   /* Galeria*/
   .galery__image {
@@ -302,6 +306,8 @@ footer {
         justify-content: center;
         margin: 16px 55px 0px 55px; }
       .start__image--left {
+        float: none; }
+      .start__image--end {
         float: none; }
       .start__image--first {
         width: 50vw;

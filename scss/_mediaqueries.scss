@@ -14,6 +14,9 @@
         &--left {
             float:right;
         }
+        &--end {
+            float: none;
+        }
     }
     .galery__image {
         height: 50vh;
@@ -44,6 +47,9 @@
             margin-top: 16px;
         }
         &--left {
+            float: none;
+        }
+        &--end {
             float: none;
         }
     } 
@@ -104,6 +110,9 @@
         margin: 16px 55px 0px 55px;
         }
         &--left {
+            float: none;
+        }
+        &--end {
             float: none;
         }
         &--first {
