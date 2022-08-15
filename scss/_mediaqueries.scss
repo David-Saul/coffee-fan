@@ -6,11 +6,13 @@
         height: auto;
         margin: 16px 0 16px 0;
         align-items: center;
-
         &--tablet {
             display: flex;
             flex-wrap: wrap;
             justify-content:center;
+        }
+        &--left {
+            float:right;
         }
     }
     .galery__image {
@@ -40,6 +42,9 @@
     height: auto;
         &--right {
             margin-top: 16px;
+        }
+        &--left {
+            float: none;
         }
     } 
 }
@@ -97,6 +102,9 @@
         display: flex;
         justify-content: center;
         margin: 16px 55px 0px 55px;
+        }
+        &--left {
+            float: none;
         }
         &--first {
             width: 50vw;
