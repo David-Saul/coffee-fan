@@ -16,7 +16,7 @@
   font-size: 1.563rem;
   transition: all .3s ease-in-out; }
   .nav-link:hover {
-    transform: scale(1.07);
+    transform: scale(1.03);
     color: #620202;
     font-weight: bold;
     text-decoration: underline; }
@@ -112,7 +112,12 @@ footer {
       float: right;
       border: 2px solid antiquewhite;
       margin-right: 16px;
-      margin-left: 8px; }
+      margin-left: 8px;
+      transition: all .2s ease-in-out;
+      filter: grayscale(100); }
+      .start__image--right:hover {
+        transform: scale(1.02);
+        filter: grayscale(0); }
     .start__image--left {
       float: left;
       margin-left: 16px;
@@ -144,7 +149,12 @@ footer {
       float: left;
       border: 2px solid antiquewhite;
       margin-right: 8px;
-      margin-left: 16px; }
+      margin-left: 16px;
+      transition: all .2s ease-in-out;
+      filter: grayscale(100); }
+      .start__image--fourth:hover {
+        transform: scale(1.02);
+        filter: grayscale(0); }
     .start__image--especial {
       margin-top: 15px; }
   .start__figcaption {
