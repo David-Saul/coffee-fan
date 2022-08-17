@@ -2,15 +2,16 @@
 @media only screen and (min-width: 993px) and (max-width: 1196px) {
     /*Imágenes article  */
     .start__image {
-        width: 70vw;
-        height: auto;
-        margin: 16px 0 16px 0;
         align-items: center;
+        width: auto;
+        height: 50vh;
+        margin: 16px;
+        }
         &--tablet {
             display: flex;
+            flex-direction: column;
             flex-wrap: wrap;
-            justify-content:center;
-        }
+            justify-content:center;    
         &--left {
             float:right;
         }
@@ -53,7 +54,7 @@
             float: none;
         }
         &--hide{
-            display: block;
+            float: none;
         }
     } 
 }

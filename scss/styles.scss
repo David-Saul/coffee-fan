@@ -51,7 +51,7 @@
     /* Clases para imágenes */
     &__image {
         width: auto;
-        height: 380px;
+        height: 350px;
         margin: 16px;
         padding: 10px;
         border-radius: 10px;
@@ -77,7 +77,10 @@
             margin-left: 8px;
         }
         &--hide {
-            display: none;
+            float: right;
+            height: 250px;
+            width: auto;
+            margin-right: 16px;
         }
         &--first {
             width: auto;
