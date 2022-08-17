@@ -140,6 +140,11 @@ footer {
       height: auto;
       margin: 25px 16px 0 40px;
       padding-right: 20px; }
+    .start__image--fourth {
+      float: left;
+      border: 2px solid antiquewhite;
+      margin-right: 8px;
+      margin-left: 16px; }
     .start__image--especial {
       margin-top: 15px; }
   .start__figcaption {
@@ -330,7 +335,8 @@ footer {
         width: 60vw;
         height: auto;
         margin: 16px;
-        margin-left: 32px; }
+        margin-left: 32px;
+        padding-top: 15px; }
       .start__image--third {
         width: 55vw;
         height: auto; }
@@ -340,6 +346,12 @@ footer {
         justify-content: center;
         padding-bottom: 16px;
         gap: 7px; }
+      .start__image--fourth {
+        float: none;
+        display: flex;
+        justify-content: center;
+        margin: 14px 60px 0px 60px;
+        padding-top: 20px; }
     .start__paragraph {
       margin-bottom: 0px; }
   /* Galeria mobile */

@@ -108,10 +108,10 @@
         margin: 0;
         /* Imágenes Mobile */
         &--right {
-        float:none;
-        display: flex;
-        justify-content: center;
-        margin: 16px 55px 0px 55px;
+            float:none;
+            display: flex;
+            justify-content: center;
+            margin: 16px 55px 0px 55px;
         }
         &--left {
             float: none;
@@ -135,6 +135,7 @@
             height: auto;
             margin: 16px;
             margin-left: 32px;
+            padding-top: 15px;
         }
         &--third {
             width: 55vw;
@@ -147,6 +148,13 @@
             justify-content:center;
             padding-bottom: 16px;
             gap: 7px;
+        }
+        &--fourth {
+            float:none;
+            display: flex;
+            justify-content: center;
+            margin: 14px 60px 0px 60px;
+            padding-top: 20px;
         }
     }
     &__paragraph {
