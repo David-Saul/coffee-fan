@@ -310,17 +310,16 @@ footer {
     /* Titulos H en Mobile */
     /* Parrafos Mobile */ }
     .start__title {
-      padding-top: 15px;
-      font-size: 32px; }
-    .start__title4 {
-      font-size: 20px; }
+      padding: 15px 16px 0 16px;
+      margin: 0; }
     .start__paragraph {
       font-weight: normal;
       text-align: justify;
       line-height: 1.5;
       margin: 16px; }
     .start__figcaption {
-      align-items: center; }
+      align-items: center;
+      margin: 16px; }
     .start__image {
       width: 90vw;
       height: auto;
@@ -343,7 +342,7 @@ footer {
         width: 50vw;
         height: auto;
         align-items: center;
-        margin: 16px; }
+        margin: 32px; }
       .start__image--second {
         width: 60vw;
         height: auto;
@@ -364,9 +363,11 @@ footer {
         display: flex;
         justify-content: center;
         margin: 14px 60px 0px 60px;
-        padding-top: 20px; }
+        padding-top: 5px; }
     .start__paragraph {
-      margin-bottom: 0px; }
+      margin-bottom: 0px;
+      margin: 0;
+      padding: 16px; }
   /* Galeria mobile */
   .galery {
     width: 100vw; }

@@ -90,11 +90,8 @@
         width: 100vw;
     /* Titulos H en Mobile */
     &__title {   
-        padding-top: 15px;
-        font-size: 32px;
-    }
-    &__title4 {
-        font-size: 20px;
+        padding: 15px 16px 0 16px;
+        margin: 0;
     }
     /* Parrafos Mobile */
     &__paragraph {
@@ -105,6 +102,7 @@
     }
     &__figcaption {
         align-items: center;
+        margin: 16px;
     }
     &__image {
         width: 90vw;
@@ -132,7 +130,7 @@
             width: 50vw;
             height: auto;
             align-items: center;
-            margin: 16px;
+            margin: 32px;
         }
         &--second {
             width: 60vw;
@@ -158,11 +156,13 @@
             display: flex;
             justify-content: center;
             margin: 14px 60px 0px 60px;
-            padding-top: 20px;
+            padding-top: 5px;
         }
     }
     &__paragraph {
         margin-bottom: 0px;
+        margin: 0;
+        padding: 16px;
     }
 }
 
