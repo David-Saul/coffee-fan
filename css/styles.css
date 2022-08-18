@@ -49,7 +49,7 @@ footer {
     transition: all 0.3s ease-out; }
     footer .footer__social:hover {
       transform: scale(1.1);
-      margin-left: 15px; }
+      margin-left: 10px; }
 
 /* EXTEND */
 .italic-bold, .active, .start__title, .form__font {
@@ -248,7 +248,7 @@ footer {
   .start__image {
     align-items: center;
     width: auto;
-    height: 50vh;
+    height: 30vh;
     margin: 16px; }
   --tablet {
     display: flex;
@@ -259,6 +259,9 @@ footer {
       float: right; }
     --tablet--end {
       float: none; }
+    --tablet--hide {
+      width: auto;
+      height: 200px; }
   .galery__image {
     height: 50vh; } }
 
@@ -381,5 +384,4 @@ footer {
   .btn-primary {
     width: 115px; }
   footer {
-    width: 100vw;
-    background-image: linear-gradient(to bottom, #087b23, #29372d); } }
+    width: 100vw; } }

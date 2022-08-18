@@ -4,7 +4,7 @@
     .start__image {
         align-items: center;
         width: auto;
-        height: 50vh;
+        height: 30vh;
         margin: 16px;
         }
         &--tablet {
@@ -17,6 +17,10 @@
         }
         &--end {
             float: none;
+        }
+        &--hide {
+            width: auto;
+            height: 200px;
         }
     }
     .galery__image {
@@ -186,6 +190,5 @@
 }
 footer {
     width: 100vw;
-    background-image: linear-gradient(to bottom, $main-color, rgb(41, 55, 45));
 }
 }
