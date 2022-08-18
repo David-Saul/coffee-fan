@@ -1,5 +1,5 @@
 <h1>Coffee Fan - Proyecto CoderHouse</h1>
-<p>Esta es una página para los fan del buen café</p>
+<p>Esta es una página para los fans del buen café</p>
 
 <h2>Tecnologías usadas</h2>
 <ul>
